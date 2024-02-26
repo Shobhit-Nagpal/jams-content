@@ -33,7 +33,8 @@ Fun fact: HTTP was developed at CERN along with HTML and WWW (World Wide Web)
 - POST, i.e, post a resource to the server
 
 GET req ex:
-    GET / HTTP/1.1
+
+    GET / HTTP/1.1 
     Host: developer.mozilla.org
     Accept-Language: fr
 
