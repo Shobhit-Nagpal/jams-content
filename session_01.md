@@ -39,15 +39,16 @@ GET req ex:
     Accept-Language: fr
 
 POST req ex:
+
     POST /contact_form.php HTTP/1.1
     Host: developer.mozilla.org
     Content-Length: 64
     Content-Type: application/x-www-form-urlencoded
-
     name=Joe%20User&request=Send%20me%20one%20of%20your%20catalogue
 
 ## HTTP Response
 Server response ex:
+
     HTTP/1.1 200 OK
     Content-Type: text/html; charset=utf-8
     Content-Length: 55743
