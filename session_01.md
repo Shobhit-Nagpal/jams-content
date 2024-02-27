@@ -80,16 +80,16 @@ Server response ex:
 ```
 
 - Structure is:
-    a. Status line 
-    b. Information about data sent back to client
-    c. Data block
+    1. Status line 
+    2. Information about data sent back to client
+    3. Data block
 
 ### Status codes
 - Codes that indicate how a HTTP request was handled
-200-299: Successful responses
-300-399: Redirect messages
-400-499: Client error responses
-500-599: Server error responses
+    1. 200-299: Successful responses
+    2. 300-399: Redirect messages
+    3. 400-499: Client error responses
+    4. 500-599: Server error responses
 
 # HTTPS
 - HTTPS stands for HTTP Secure
