@@ -45,9 +45,9 @@ a {
     i. Universal selector (*) - Select elements of any type
     ii. Type selector / Element selector(the tag itself) - Select all elements of given element type
     iii. Class selector - Selects elements with a given class
-    iv. ID selecnt cantors - Selects elements with a given id
+    iv. ID selector - Selects elements with a given id
 
-    Note: Eleme have only ONE id but multiple classes
+    Note: Elements have only ONE id but multiple classes
 
     v. Grouping selectors - Can reduce code by applying same style to 2 selectors by grouping them 
     vi. Chaining selectors - Can chain selectors as a list without any separation (can chain class + class and also class + id) 
